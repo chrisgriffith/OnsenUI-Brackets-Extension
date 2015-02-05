@@ -76,6 +76,34 @@
     "noscript":   { "attributes": [] },
     "object":     { "attributes": ["archive", "codebase", "codetype", "data", "declare", "form", "height", "name", "standby", "type", "usemap", "width"] },
     "ol":         { "attributes": ["reversed", "start", "type"] },
+  
+    "ons-page":                    { "attributes": ["var", "modifier", "on-device-backbutton", "ng-device-backbutton"] },
+    "ons-navigator":               { "attributes": ["var", "page"] },
+    "ons-toolbar":                 { "attributes": ["inline", "modifier", "fixed-style"] },
+    "ons-bottom-toolbar":          { "attributes": ["inline"] },
+    "ons-toolbar-button":          { "attributes": ["modifier"] },
+    "ons-tabbar":                  { "attributes": ["hide-tabs", "var", "animation", "position"] },
+    "ons-tab":                     { "attributes": ["page", "icon", "active-icon", "label", "active", "no-reload"] },
+    "ons-sliding-menu":            { "attributes": ["menu-page", "main-page", "swipeable", "swipe-target-width", "max-slide-distance", "var", "side"] },
+    "ons-split-view":              { "attributes": ["main-page", "main-page-width", "secondary-page", "collapse", "var"] },
+    "ons-scroller":                { "attributes": [] },
+    "ons-list":                    { "attributes": ["modifier"] },
+    "ons-list-header":             { "attributes": ["modifier"] },
+    "ons-list-item":               { "attributes": ["modifier"] },
+    "ons-alert-dialog":            { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
+    "ons-dialog":                  { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
+    "ons-carousel":                { "attributes": ["direction", "fullscreen", "var", "overscrollable", "item-width", "item-height", "auto-scroll", "swipeable", "disabled", "initial-index"] },
+    "ons-popover":                 { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
+    "ons-modal":                   { "attributes": ["var"] },
+    "ons-button":                  { "attributes": ["modifier", "should-spin", "animation", "disabled"] },
+    "ons-back-button":             { "attributes": [] },
+    "ons-switch":                  { "attributes": ["disabled", "checked", "var", "modifier"] },
+    "ons-icon":                    { "attributes": ["icon", "size", "rotate", "flip", "fixed-width", "spin"] },
+    "ons-row":                     { "attributes": ["align"] },
+    "ons-col":                     { "attributes": ["align", "width"] },
+    "ons-template":                { "attributes": [] },
+    "ons-gesture-detector":        { "attributes": [] },
+  
     "optgroup":   { "attributes": ["disabled", "label"] },
     "option":     { "attributes": ["disabled", "label", "selected", "value"] },
     "output":     { "attributes": ["for", "form", "name"] },
@@ -115,4 +143,5 @@
     "var":        { "attributes": [] },
     "video":      { "attributes": ["autoplay", "controls", "height", "loop", "mediagroup", "muted", "poster", "preload", "src", "width"] },
     "wbr":        { "attributes": [] }
-}
+  }
+         
