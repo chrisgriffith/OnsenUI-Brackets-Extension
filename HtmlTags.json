@@ -93,7 +93,7 @@
     "ons-alert-dialog":            { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
     "ons-dialog":                  { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
     "ons-carousel":                { "attributes": ["direction", "fullscreen", "var", "overscrollable", "item-width", "item-height", "auto-scroll", "swipeable", "disabled", "initial-index"] },
-    "ons-popover":                 { "attributes": ["var", "modifier", "cancelable", "disabled", "animation", "mask-color"] },
+    "ons-popover":                 { "attributes": ["var", "modifier", "direction", "cancelable", "disabled", "animation", "mask-color"] },
     "ons-modal":                   { "attributes": ["var"] },
     "ons-button":                  { "attributes": ["modifier", "should-spin", "animation", "disabled"] },
     "ons-back-button":             { "attributes": [] },
