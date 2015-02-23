@@ -1,6 +1,7 @@
-{     
-    "a":          { "attributes": ["href", "hreflang", "media", "rel", "target", "type"] },
+{
+    "a":          { "attributes": ["href", "hreflang", "media", "rel", "target", "type", "ng-blur", "ng-copy",  "ng-cut", "data-ng-blur", "data-ng-copy",  "data-ng-cut", "ng-href", "data-ng-href"] },
     "abbr":       { "attributes": [] },
+    "acronym":    { "attributes": [] },
     "address":    { "attributes": [] },
     "area":       { "attributes": ["alt", "coords", "href", "hreflang", "media", "rel", "shape", "target", "type"] },
     "article":    { "attributes": [] },
@@ -13,7 +14,7 @@
     "big":        { "attributes": [] },
     "blockquote": { "attributes": ["cite"] },
     "body":       { "attributes": ["onafterprint", "onbeforeprint", "onbeforeunload", "onhashchange", "onmessage", "onoffline", "ononline",
-                                   "onpagehide", "onpageshow", "onpopstate", "onredo", "onresize", "onstorage", "onundo", "onunload"] },
+                                   "onpagehide", "onpageshow", "onpopstate", "onredo", "onresize", "onstorage", "onundo", "onunload", "ng-app", "ng-controller", "ng-csp", "data-ng-app", "data-ng-controller", "data-ng-csp"] },
     "br":         { "attributes": [] },
     "button":     { "attributes": ["autofocus", "disabled", "form", "formaction", "formenctype", "formmethod", "formnovalidate", "formtarget", 
                                    "name", "type", "value"] },
@@ -27,10 +28,10 @@
     "datalist":   { "attributes": [] },
     "dd":         { "attributes": [] },
     "del":        { "attributes": ["cite", "datetime"] },
-    "details":    { "attributes": ["open"] },
+    "details":    { "attributes": ["open", "ng-open", "data-ng-open"] },
     "dfn":        { "attributes": [] },
-    "dialog":     { "attributes": ["open"] },
-    "div":        { "attributes": [] },
+    "dialog":     { "attributes": ["open", "ng-open", "data-ng-open"] },
+    "div":        { "attributes": ["ng-app"] },
     "dl":         { "attributes": [] },
     "dt":         { "attributes": [] },
     "em":         { "attributes": [] },
@@ -54,10 +55,10 @@
     "i":          { "attributes": [] },
     "iframe":     { "attributes": ["height", "name", "sandbox", "seamless", "src", "srcdoc", "width"] },
     "ilayer":     { "attributes": [] },
-    "img":        { "attributes": ["alt", "height", "ismap", "longdesc", "src", "usemap", "width"] },
-    "input":      { "attributes": ["accept", "alt", "autocomplete", "autofocus", "checked", "dirname", "disabled", "form", "formaction", "formenctype", "formmethod", 
-                                   "formnovalidate", "formtarget", "height", "list", "max", "maxlength", "min", "multiple", "name", "pattern", "placeholder", "readonly", 
-                                   "required", "size", "src", "step", "type", "value", "width"] },
+    "img":        { "attributes": ["alt", "height", "ismap", "longdesc", "src", "srcset", "usemap", "width", "ng-src", "ng-srcset", "data-ng-src", "data-ng-srcset"] },
+    "input":      { "attributes": ["accept", "alt", "autocomplete", "autocorrect", "autofocus", "checked", "dirname", "disabled", "form", "formaction", "formenctype", "formmethod",
+                                   "formnovalidate", "formtarget", "height", "inputmode", "list", "max", "maxlength", "min", "multiple", "name", "pattern", "placeholder", "readonly",
+                                   "required", "size", "src", "step", "type", "value", "width", "ng-required", "ng-minlength", "ng-maxlength", "ng-pattern", "ng-change", "ng-trim", "ng-value", "ng-disabled", "ng-blur", "ng-copy",  "ng-cut",  "ng-model", "ng-list",  "ng-readonly", "ng-value", "data-ng-required", "data-ng-minlength", "data-ng-maxlength", "data-ng-pattern", "data-ng-change", "data-ng-trim", "data-ng-value", "data-ng-disabled", "data-ng-blur", "data-ng-copy",  "data-ng-cut",  "data-ng-model", "data-ng-list",  "data-ng-readonly", "data-ng-value"] },
     "ins":        { "attributes": ["cite", "datetime"] },
     "kbd":        { "attributes": [] },
     "keygen":     { "attributes": ["autofocus", "challenge", "disabled", "form", "keytype", "name"] },
@@ -109,6 +110,7 @@
     "output":     { "attributes": ["for", "form", "name"] },
     "p":          { "attributes": [] },
     "param":      { "attributes": ["name", "value"] },
+    "picture":    { "attributes": [] },
     "pre":        { "attributes": [] },
     "progress":   { "attributes": ["form", "max", "value"] },
     "q":          { "attributes": ["cite"] },
@@ -142,6 +144,11 @@
     "ul":         { "attributes": [] },
     "var":        { "attributes": [] },
     "video":      { "attributes": ["autoplay", "controls", "height", "loop", "mediagroup", "muted", "poster", "preload", "src", "width"] },
-    "wbr":        { "attributes": [] }
+    "wbr":        { "attributes": [] },
+
+	"ng-pluralize":   { "attributes": ["count", "when", "offset"] },
+    "ng-transclude":  { "attributes": [] },
+    "ng-include":     { "attributes": ["src"] },
+    "ng-view":        { "attributes": [] }
   }
          
