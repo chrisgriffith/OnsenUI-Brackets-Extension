@@ -2,11 +2,11 @@
 	"name": "chrisgriffith.onsenbracketshints",
 	"title": "OnsenUI Framework Code Hinting",
 	"description": "Code hinting for the OnsenUI Framework",
-	"homepage": "http://www.onsenbrackets.com/",
-	"version": "0.1.0",
+	"homepage": "http://www.onsenuibrackets.com/",
+	"version": "0.2.0",
 	"author": "Chris Griffith <chris.griffith@gmail.com> (http://aj-software.com)",
 	"license": "ClearBSD",
 	"engines": {
-		"brackets": ">=0.25.0"
+		"brackets": ">=1.0.0"
 	}
 }
