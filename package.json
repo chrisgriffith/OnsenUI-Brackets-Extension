@@ -3,9 +3,9 @@
 	"title": "OnsenUI Framework Code Hinting",
 	"description": "Code hinting for the OnsenUI Framework",
 	"homepage": "http://www.onsenuibrackets.com/",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"author": "Chris Griffith <chris.griffith@gmail.com> (http://aj-software.com)",
-	"license": "ClearBSD",
+	"license": "MIT",
 	"engines": {
 		"brackets": ">=1.0.0"
 	}
